@@ -60,7 +60,7 @@ class ProfileCard extends StatelessWidget {
                 ),
               ),
               TextButton(
-                onPressed: (){
+                onPressed: () {
                   print("pressed share button");
                 },
                 child: const Text("SHARE"),

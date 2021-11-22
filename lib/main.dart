@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:profile_sandbox/profile.dart';
-import 'package:profile_sandbox/widget.dart';
-
-import 'map_home.dart';
+import 'package:profile_sandbox/controller/profile.dart';
+import 'package:profile_sandbox/controller/map_home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -70,6 +68,7 @@ class LinkTile extends StatelessWidget {
     );
   }
 }
+
 class Link {
   final String name;
   final String route;
